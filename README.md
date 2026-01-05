@@ -14,7 +14,7 @@ Problems are organized **topic-wise** to make learning efficient and systematic.
 - Sliding Window & Two Pointers
 - Trees
 
-## Tech Stack
+## ⚙️ Tech Stack
 - ☕ Language: Java
 - 🧑‍💻 IDE: VS Code / IntelliJ
 - 🔧 Version Control: Git & GitHub
