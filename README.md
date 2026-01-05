@@ -20,9 +20,9 @@ Problems are organized **topic-wise** to make learning efficient and systematic.
 - 🔧 Version Control: Git & GitHub
 
 ## 🧠 Approach
-- Optimized solutions
-- Clean and readable code
-- Proper time & space complexity mentioned
+- 🎯 Optimized solutions
+- 🧩 Clean and readable code
+- ⏳ Proper time & space complexity mentioned
 
 ## 🎯 Objectives
 - 🧠 Strengthen problem-solving skills  
