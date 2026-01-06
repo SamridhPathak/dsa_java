@@ -2,7 +2,7 @@
 // Difficulty: Medium
 // Approach: Sliding Window - Two Pointers
 // Time Complexity: O(n)
-// Space Complexity: O()
+// Space Complexity: O(1)
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
