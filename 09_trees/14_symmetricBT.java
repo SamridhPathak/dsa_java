@@ -16,18 +16,18 @@ class Solution {
             TreeNode right = queue.poll();
 
             //check for false possibilities 
-            if (left == null && right == null) {
+            if (left == null && right == null) {  //if null occurs in btw. at both subtrees
                 continue;  //skip it
             }
-            if (left == null || right == null) {
+            if (left == null || right == null) {  //if null occurs at one subtree
                 return false; 
             }
-            if (left.val != right.val) {
+            if (left.val != right.val) { //if values don't match
                 return false; 
             }
 
             //traverse further now
-            queue.add(left.left);
+            queue.add(left.left);  //
             queue.add(right.right);
             queue.add(left.right);
             queue.add(right.left);
