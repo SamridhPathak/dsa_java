@@ -16,7 +16,7 @@ class Solution {
             //check at same level
             for (int i = 0; i < levelSize; i++) {
                 TreeNode currNode = queue.poll();
-                int sameParentCount = 0; /*a node is parent to which childs
+                int sameParentCount = 0; /*a node is parent to which childs,
                                            initializes to zero for every node on same level */
 
                 if (currNode.left != null) {
