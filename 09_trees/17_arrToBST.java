@@ -2,7 +2,7 @@
 // Difficulty: Easy
 // Approach: Use divide-and-conquer by picking the middle element of the sorted array as the root and recursively building left and right subtrees from the left and right halves to form a height-balanced BST.
 // Time Complexity: O(n)
-// Space Complexity: O(1)
+// Space Complexity: O(log n) — due to recursion stack in a balanced BST
 
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
