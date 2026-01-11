@@ -2,7 +2,7 @@
 // Difficulty: Easy
 // Approach: DFS Recursion, Traverse the tree using DFS and swap the left and right child of every node to mirror the tree.
 // Time Complexity: O(n)
-// Space Complexity: O(k)
+// Space Complexity: O(log n) — due to recursion stack in a balanced BST
 
 class Solution {
     public TreeNode invertTree(TreeNode root) {
