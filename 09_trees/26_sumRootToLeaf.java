@@ -2,7 +2,7 @@
 // Difficulty: Medium
 // Approach: Recursion DFS
 // Time Complexity: O(N)
-// Space Complexity: O(H) where H is the height of the tree
+// Space Complexity: O(H) where H is the height of the tree.
 
 class Solution {
     public int sumNumbers(TreeNode root) {
