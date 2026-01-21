@@ -1,5 +1,5 @@
 // LeetCode 222 - Count Complete Tree Nodes
-// Difficulty: Medium
+// Difficulty: easy
 // Approach: Recursive Height Comparison
 // Time Complexity: O(log N)^2
 // Space Complexity: O(log N)
