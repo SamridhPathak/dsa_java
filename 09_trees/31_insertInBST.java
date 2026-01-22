@@ -10,7 +10,7 @@ class Solution {
             return new TreeNode(val);
         }
         TreeNode curr = root;
-        while (true) {
+        while (true) { // bcoz we will definitely find a place to insert (keep looping until insertion is done, then stop)
             if (curr.val <= val) {
                 if (curr.right != null) {
                     curr = curr.right;
