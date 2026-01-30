@@ -13,7 +13,7 @@ class Solution {
         // Total number of vertices in the graph
         int V = adj.size();
         
-         // Visited array to track which nodes are already visited
+        // Visited array to track which nodes are already visited
         boolean[] visit = new boolean[V];
         
         // Start DFS from node 0
