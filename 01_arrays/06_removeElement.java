@@ -4,6 +4,8 @@
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
+//pattern: in-place array modification, two pointers
+
 class Solution {
     public int removeElement(int[] nums, int val) {
         int k = 0;
