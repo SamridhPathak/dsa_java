@@ -13,6 +13,8 @@ Problems are organized **topic-wise** to make learning efficient and systematic.
 - Stacks and Queues
 - Sliding Window & Two Pointers
 - Trees
+- Graphs
+- DP
 
 ## ⚙️ Tech Stack
 - ☕ Language: Java
