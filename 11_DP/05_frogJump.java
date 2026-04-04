@@ -1,8 +1,8 @@
-// GFG - Frog Jump
-// Difficulty: Medium
-// Approach: Memoization 
-// Time Complexity: O(N)
-// Space Complexity: O(N) + O(N) = O(N) {for recursion stack and dp array}
+// GFG - Frog Jump 
+// Difficulty: Medium 
+// Approach: memoization, pick minimum cost from 1-step or 2-step jump 
+// Time Complexity: O(n)
+// Space Complexity: O(n) + O(n) (for recursion stack + dp array)
 
 class Solution {
     int minCost(int[] height) {
