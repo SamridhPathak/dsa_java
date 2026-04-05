@@ -25,3 +25,11 @@ class Solution {
         return options;
     }
 }
+
+/*
+
+formula: 
+rob  = node.val + left.skip + right.skip
+skip = max(left.rob, left.skip) + max(right.rob, right.skip)
+
+*/
