@@ -1,6 +1,6 @@
 // LeetCode (8) - String To Integer
 // Difficulty: Medium
-// Approach: skip spaces, determine sign, convert to int, check overflow and underflow, return
+// Approach: skip spaces, determine sign, convert to int, take each digit and put it into the number, check overflow and underflow, return
 // Time Complexity: O(n) 
 // Space Complexity: O(1)
 
