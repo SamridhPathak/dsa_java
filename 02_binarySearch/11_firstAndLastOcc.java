@@ -1,4 +1,4 @@
-// LeetCode (34) - 
+// LeetCode (34) - Find First and Last Position of Element in Sorted Array
 // Difficulty: Medium
 // Approach: Use two binary searches — one to find the first occurrence by continuing left after finding the target, and one to find the last occurrence by continuing right after finding the target. If target is absent, ans remains -1. First → found target → go LEFT. Last → found target → go RIGHT.
 // Time Complexity: O(log n)
